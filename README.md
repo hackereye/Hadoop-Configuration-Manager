@@ -6,9 +6,9 @@ automatize the usage of
 The goal of this project are:
 
 - use a *declarative style* to define the configuration of an object
-- *easy to integrate* in existing projects, no need to change the class
-  hierarchy and can be used with
-[Configurable](http://hadoop.apache.org/docs/stable/api/org/apache/hadoop/conf/Configured.html)
+- *easy to integrate* in existing projects and with
+  [Configurable](http://hadoop.apache.org/docs/stable/api/org/apache/hadoop/conf/Configured.html),
+no need to change the class hierarchy and can be used with
 - *default values* and *notifications* for missing keys
 - *conversions* of the object expected configuration to any format, e.g. XML
   properties for hadoop configuration (_mapred-site.xml_, ...) or plain text
